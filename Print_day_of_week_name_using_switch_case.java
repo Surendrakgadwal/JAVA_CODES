@@ -11,7 +11,11 @@ public class Print_day_of_week_name_using_switch_case {
 
      num=sc.nextInt();
 
+<<<<<<< HEAD
      switch(num) {
+=======
+     switch(num){
+>>>>>>> 82ce748c6ed8999d1f389fe1264e59b8d8c17ab8
          case 0:
              System.out.println("Sunday");
              break;
@@ -39,13 +43,24 @@ public class Print_day_of_week_name_using_switch_case {
          case 6:
              System.out.println("saturday");
              break;
+<<<<<<< HEAD
 
+=======
+             
+>>>>>>> 82ce748c6ed8999d1f389fe1264e59b8d8c17ab8
          default:
              System.out.println("Invalid number");
 
 
+<<<<<<< HEAD
      }
 
+=======
+
+     }
+
+
+>>>>>>> 82ce748c6ed8999d1f389fe1264e59b8d8c17ab8
  }
 
 

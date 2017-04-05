@@ -18,7 +18,11 @@ public class Find_Average {
 
         per = (hindi + eng + phy + math + sci) / 5;
         System.out.println("Percentage is " + per);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 82ce748c6ed8999d1f389fe1264e59b8d8c17ab8
         if(per>=90){
             System.out.println("A Grade");
         }

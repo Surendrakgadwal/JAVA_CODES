@@ -6,16 +6,28 @@ public class Check_notes_from_amount {
     public static void main(String args[]){
         int note500, note100, note50, note20, note10, note5, note2, note1;
         note500 = note100 = note50 = note20 = note10=  note5=  note2 = note1=0;
+<<<<<<< HEAD
 
         Scanner sc=new Scanner(System.in);
         int amount=sc.nextInt();
         System.out.println("The Amount is" + amount);
 
+=======
+        
+        Scanner sc=new Scanner(System.in);
+        int amount=sc.nextInt();
+	System.out.println("The Amount is" + amount);
+        
+>>>>>>> 82ce748c6ed8999d1f389fe1264e59b8d8c17ab8
         if(amount>=500){
             note500=amount/500;
             amount=amount-note500*500;
 
+<<<<<<< HEAD
         }
+=======
+            }
+>>>>>>> 82ce748c6ed8999d1f389fe1264e59b8d8c17ab8
         if(amount>=100) {
             note100 = amount / 100;
             amount = amount - note100 * 100;
@@ -58,6 +70,7 @@ public class Check_notes_from_amount {
 
         }
 
+<<<<<<< HEAD
         System.out.println("Total no. of notes are = ");
         System.out.println("500 = " + note500);
         System.out.println("100 = " + note100);
@@ -68,4 +81,16 @@ public class Check_notes_from_amount {
         System.out.println("2 = " + note2);
         System.out.println("1 = " + note1);
     }
+=======
+	System.out.println("Total no. of notes are = ");
+	System.out.println("500 = " + note500);
+        System.out.println("100 = " + note100);
+	System.out.println("50 = " + note50);
+	System.out.println("20 = " + note20);
+	System.out.println("10 = " + note10);
+	System.out.println("5 = " + note5);
+	System.out.println("2 = " + note2);
+	System.out.println("1 = " + note1);
+}
+>>>>>>> 82ce748c6ed8999d1f389fe1264e59b8d8c17ab8
 }

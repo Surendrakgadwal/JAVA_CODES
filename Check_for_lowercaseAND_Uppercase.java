@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 
+=======
+import java.util.Scanner;
+>>>>>>> 82ce748c6ed8999d1f389fe1264e59b8d8c17ab8
 
 /**
  * Created by GADWAL on 3/28/2017.
  */
+<<<<<<< HEAD
 import java.util.Scanner;
+=======
+>>>>>>> 82ce748c6ed8999d1f389fe1264e59b8d8c17ab8
 public class Check_for_lowercaseAND_Uppercase {
     public static void main(String args[])
     {

@@ -18,8 +18,13 @@ public class Check_char_Is_Alpha_or_not {
 
             System.out.println("Char is not Alphabate");
 
+<<<<<<< HEAD
 
             }
+=======
+        
+            } 
+>>>>>>> 82ce748c6ed8999d1f389fe1264e59b8d8c17ab8
     }
 
 }

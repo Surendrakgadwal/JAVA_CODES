@@ -12,6 +12,10 @@ public class Bitwise_Operatoe {
         int d=a&b;
         int e=a^b;
         int f=(~a&b) | (a&~b);
+<<<<<<< HEAD
+=======
+        int g= ~a&0*0f;
+>>>>>>> 82ce748c6ed8999d1f389fe1264e59b8d8c17ab8
 
         System.out.println(" a = " + binary[a]);
         System.out.println(" b = " + binary[b]);
@@ -19,7 +23,11 @@ public class Bitwise_Operatoe {
         System.out.println(" a&b = " + binary[d]);
         System.out.println(" a^b = " + binary[e]);
         System.out.println(" ~a&b|a&~b = " + binary[f]);
+<<<<<<< HEAD
 
+=======
+        System.out.println(" ~a = " + binary[g]);
+>>>>>>> 82ce748c6ed8999d1f389fe1264e59b8d8c17ab8
 
 
     }

@@ -6,8 +6,13 @@ import java.lang.*;
 public class find_roots_of_quadratic_equation {
 
     public static void main(String args[]){
+<<<<<<< HEAD
         int a,b,c;
         double root1,root2,discriminant,imaginary;
+=======
+        float a,b,c;
+	double root1,root2,discriminant,imaginary;
+>>>>>>> 82ce748c6ed8999d1f389fe1264e59b8d8c17ab8
 
         Scanner sc= new Scanner(System.in);
         a=sc.nextInt();
